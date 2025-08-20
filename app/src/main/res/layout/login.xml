@@ -1,0 +1,117 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textbem_vindoa"
+        android:layout_width="221dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="44dp"
+        android:text="Bem Vindo(a)"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textemail"
+        android:layout_width="73dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="388dp"
+        android:text="Email:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textsenha"
+        android:layout_width="87dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="480dp"
+        android:text="Senha:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textcadastro"
+        android:layout_width="61dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="564dp"
+        android:text="Cadastro"
+        android:textColor="#1a8d87"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="209dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="629dp"
+        android:backgroundTint="#32b7f9"
+        android:text="Login"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textesqueceu_senha"
+        android:layout_width="97dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="564dp"
+        android:text="Esqueceu senha"
+        android:textColor="#1a8d87"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagetelalogin"
+        android:layout_width="283dp"
+        android:layout_height="283dp"
+        android:layout_marginTop="90dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imagetelalogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputEmailLogin"
+        android:layout_width="289dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="422dp"
+        android:background="#233259"
+        android:textColorHint="@color/white"
+        android:hint="Insira seu email"
+        android:padding="10dp"
+        android:paddingStart="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputSenhaLogin"
+        android:layout_width="289dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="513dp"
+        android:background="#233259"
+        android:textColorHint="@color/white"
+        android:hint="Insira sua senha"
+        android:padding="10dp"
+        android:paddingStart="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
