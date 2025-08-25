@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "681081142795",
+    "project_id": "ecommerceclara-ef5fd",
+    "storage_bucket": "ecommerceclara-ef5fd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681081142795:android:72b08e6e79e9c65d80d10e",
+        "android_client_info": {
+          "package_name": "br.com.bms.ecommerce_2402a"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0CJwLBfPJ9_Jn_wloJsR9RX9iR96sQK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
